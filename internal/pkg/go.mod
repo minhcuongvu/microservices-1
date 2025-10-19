@@ -1,4 +1,4 @@
-module github.com/minhcuongvu/microservices-1
+module github.com/minhcuongvu/microservices-1/internal/pkg
 
 go 1.25.3
 
