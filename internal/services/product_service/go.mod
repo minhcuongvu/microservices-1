@@ -1,6 +1,6 @@
 module github.com/minhcuongvu/microservices-1/internal/services/product_service
 
-go 1.25.3
+go 1.25.2
 
 replace github.com/minhcuongvu/microservices-1/internal/pkg => ../../pkg
 

@@ -1,6 +1,6 @@
 module github.com/minhcuongvu/microservices-1/internal/pkg
 
-go 1.25.3
+go 1.25.2
 
 require (
 	github.com/go-oauth2/oauth2/v4 v4.5.4
