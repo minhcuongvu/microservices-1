@@ -7,6 +7,7 @@ import (
 	"go.uber.org/fx"
 
 	"github.com/minhcuongvu/microservices-1/internal/services/product_service/config"
+	"github.com/minhcuongvu/microservices-1/internal/services/product_service/product/configurations"
 	"github.com/minhcuongvu/microservices-1/internal/services/product_service/server"
 )
 
@@ -20,6 +21,7 @@ func main() {
 				echoserver.NewEchoServer,
 			),
 			fx.Invoke(server.RunServers),
+			fx.Invoke(configurations.ConfigEndpoints),
 		),
 	).Run()
 }
