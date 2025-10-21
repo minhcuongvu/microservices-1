@@ -8,6 +8,7 @@ import (
 	"runtime"
 	"strings"
 
+	echoserver "github.com/minhcuongvu/microservices-1/internal/pkg/http/echo/server"
 	"github.com/minhcuongvu/microservices-1/internal/pkg/logger"
 	"github.com/pkg/errors"
 	"github.com/spf13/viper"
@@ -19,7 +20,7 @@ type Config struct {
 	ServiceName string               `mapstructure:"serviceName"`
 	Logger      *logger.LoggerConfig `mapstructure:"logger"`
 	// Rabbitmq     *rabbitmq.RabbitMQConfig      `mapstructure:"rabbitmq"`
-	// Echo *echoserver.EchoConfig `mapstructure:"echo"`
+	Echo *echoserver.EchoConfig `mapstructure:"echo"`
 	// Grpc         *grpc.GrpcConfig              `mapstructure:"grpc"`
 	// GormPostgres *gormpgsql.GormPostgresConfig `mapstructure:"gormPostgres"`
 	// Jaeger       *otel.JaegerConfig            `mapstructure:"jaeger"`

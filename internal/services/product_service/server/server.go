@@ -6,6 +6,7 @@ import (
 	"net/http"
 
 	"github.com/labstack/echo/v4"
+	echoserver "github.com/minhcuongvu/microservices-1/internal/pkg/http/echo/server"
 	"github.com/minhcuongvu/microservices-1/internal/pkg/logger"
 	"go.uber.org/fx"
 

@@ -4,7 +4,7 @@ go 1.25.3
 
 replace github.com/minhcuongvu/microservices-1/internal/pkg => ../../pkg
 
-require github.com/minhcuongvu/microservices-1/internal/pkg v0.0.0-00010101000000-000000000000
+require github.com/minhcuongvu/microservices-1/internal/pkg v0.0.0-20251019165325-d4e15e724adb
 
 require (
 	github.com/fsnotify/fsnotify v1.9.0 // indirect
